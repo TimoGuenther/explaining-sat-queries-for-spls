@@ -17,7 +17,7 @@ import de.ovgu.featureide.fm.core.explanations.evaluation.Test;
 import de.ovgu.featureide.fm.core.explanations.evaluation.TestRunner;
 import de.ovgu.featureide.fm.core.explanations.evaluation.impl.resources.ConfigurationTest;
 
-public class ConfigurationsExplanationTest extends ConfigurationTest<Explanation<?>> {
+public class ConfigurationExplanationTest extends ConfigurationTest<Explanation<?>> {
 
 	/** The LTMS factory. */
 	private static final ConfigurationExplanationCreatorFactory LTMS = new LtmsConfigurationExplanationCreatorFactory();
@@ -52,7 +52,7 @@ public class ConfigurationsExplanationTest extends ConfigurationTest<Explanation
 	 * @param factory the factory used to construct explanation creators; not null
 	 * @param iterations number of iterations to run
 	 */
-	protected ConfigurationsExplanationTest(String projectName, String fmName, String configName, ConfigurationExplanationCreatorFactory factory, int iterations) {
+	protected ConfigurationExplanationTest(String projectName, String fmName, String configName, ConfigurationExplanationCreatorFactory factory, int iterations) {
 		super(projectName, fmName, configName, iterations);
 		this.factory = factory;
 	}
@@ -170,18 +170,18 @@ public class ConfigurationsExplanationTest extends ConfigurationTest<Explanation
 		final List<ConfigurationExplanationCreatorFactory> factories = Arrays.asList(LTMS, MUS, COMPOSITE);
 		final List<Test> tests = new LinkedList<>();
 		for (final ConfigurationExplanationCreatorFactory factory : factories) {
-			tests.add(new ConfigurationsExplanationTest("SortingLine", "model", "00012", factory, ITERATIONS));
-			tests.add(new ConfigurationsExplanationTest("PPU", "model", "00006", factory, ITERATIONS));/*
-			tests.add(new ConfigurationsExplanationTest("Violet", "model", "00033", factory, ITERATIONS));
-			tests.add(new ConfigurationsExplanationTest("uClibc", "model", "00019", factory, ITERATIONS));
-			tests.add(new ConfigurationsExplanationTest("E-Shop", "model", "00042", factory, ITERATIONS));
-			tests.add(new ConfigurationsExplanationTest("WaterlooGenerated", "model", "00270", factory, ITERATIONS));
-			tests.add(new ConfigurationsExplanationTest("Busybox_1.18.0", "model", "00102", factory, ITERATIONS));
-			tests.add(new ConfigurationsExplanationTest("XSEngine", "model", "00167", factory, ITERATIONS));
-			tests.add(new ConfigurationsExplanationTest("uClibc-Distribution", "model", "01337", factory, ITERATIONS));
-			tests.add(new ConfigurationsExplanationTest("Automotive01", "model", "02017", factory, ITERATIONS));
-			tests.add(new ConfigurationsExplanationTest("PROFilE-ERP-System", "model", "10001", factory, ITERATIONS));
-			tests.add(new ConfigurationsExplanationTest("PROFilE-E-Agribusiness", "model", "34819", factory, ITERATIONS));*/
+			tests.add(new ConfigurationExplanationTest("SortingLine", "model", "00012", factory, ITERATIONS));
+			tests.add(new ConfigurationExplanationTest("PPU", "model", "00006", factory, ITERATIONS));
+			tests.add(new ConfigurationExplanationTest("Violet", "model", "00033", factory, ITERATIONS));
+			tests.add(new ConfigurationExplanationTest("uClibc", "model", "00019", factory, ITERATIONS));
+			tests.add(new ConfigurationExplanationTest("E-Shop", "model", "00042", factory, ITERATIONS));
+			tests.add(new ConfigurationExplanationTest("WaterlooGenerated", "model", "00270", factory, ITERATIONS));
+			tests.add(new ConfigurationExplanationTest("Busybox_1.18.0", "model", "00102", factory, ITERATIONS));
+			tests.add(new ConfigurationExplanationTest("XSEngine", "model", "00167", factory, ITERATIONS));
+			tests.add(new ConfigurationExplanationTest("uClibc-Distribution", "model", "01337", factory, ITERATIONS));
+			tests.add(new ConfigurationExplanationTest("Automotive01", "model", "02017", factory, ITERATIONS));
+			tests.add(new ConfigurationExplanationTest("PROFilE-ERP-System", "model", "10001", factory, ITERATIONS));
+			tests.add(new ConfigurationExplanationTest("PROFilE-E-Agribusiness", "model", "34819", factory, ITERATIONS));
 		}
 		new TestRunner().run(tests);
 	}
