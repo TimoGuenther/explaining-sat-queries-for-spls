@@ -16,7 +16,7 @@ All data projects contain feature models that can be opened in [FeatureIDE](http
 * The folder [Evaluation/Qualitative/data](Evaluation/Qualitative/data) contains feature models used in the qualitative analysis. All of them are from [Ananieva](https://www.isf.cs.tu-bs.de/data/TestFeatureModels.zip) \[Ana16].
 * The folder [Evaluation/Quantitative/data](Evaluation/Quantitative/data) contains the data used in the quantitative analysis. They are sourced from various works:
   * The feature model of [Automotive01](Evaluation/Quantitative/data/Automotive01) is a FeatureIDE example \[MTS<sup>+</sup>17]. Its configurations were generated using IncLing \[AHKT<sup>+</sup>16].
-  * The feature models of [SortingLine](Evaluation/Quantitative/data/SortingLine) and [PPU](Evaluation/Quantitative/data/PPU) are from the Pick-and-Place unit case studies \[FLVH15]. Their configurations were generated using IncLing \[AHKT<sup>+</sup>16].
+  * The feature models of [SortingLine](Evaluation/Quantitative/data/SortingLine) and [PPU](Evaluation/Quantitative/data/PPU) are from the Pick-and-Place Unit case studies \[FLVH15]. Their configurations were generated using IncLing \[AHKT<sup>+</sup>16].
   * The feature models and configurations of [PROFilE-E-Agribusiness](Evaluation/Quantitative/data/PROFilE-E-Agribusiness) and [PROFilE-ERP-System](Evaluation/Quantitative/data/PROFilE-ERP-System) are from [Pereira et al.](http://wwwiti.cs.uni-magdeburg.de/~jualves/PROFilE/) \[PMK<sup>+</sup>16].
   * The remaining projects in that folder are from [Knüppel et al.](https://github.com/AlexanderKnueppel/is-there-a-mismatch) \[KTM<sup>+</sup>17]. Their configurations were generated using IncLing \[AHKT<sup>+</sup>16].
 
