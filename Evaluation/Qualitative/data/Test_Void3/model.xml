@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel>
+		<properties/>
+		<struct>
+			<and mandatory="true" name="A">
+				<description>
+					
+				</description>
+				<feature mandatory="true" name="B">
+					<description>
+						
+					</description>
+				</feature>
+				<and name="C">
+					<description>
+						
+					</description>
+					<feature mandatory="true" name="D">
+						<description>
+							
+						</description>
+					</feature>
+					<and mandatory="true" name="E">
+						<description>
+							
+						</description>
+						<feature mandatory="true" name="F">
+							<description>
+								
+							</description>
+						</feature>
+					</and>
+				</and>
+			</and>
+		</struct>
+		<constraints>
+			<rule>
+				<imp>
+					<var>F</var>
+					<not>
+						<var>B</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<imp>
+					<var>B</var>
+					<var>D</var>
+				</imp>
+			</rule>
+		</constraints>
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>

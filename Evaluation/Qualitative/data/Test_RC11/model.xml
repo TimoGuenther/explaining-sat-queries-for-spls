@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel>
+		<properties/>
+		<struct>
+			<or mandatory="true" name="A">
+				<description>
+					
+				</description>
+				<feature mandatory="true" name="B">
+					<description>
+						
+					</description>
+				</feature>
+				<feature mandatory="true" name="C">
+					<description>
+						
+					</description>
+				</feature>
+				<feature mandatory="true" name="D">
+					<description>
+						
+					</description>
+				</feature>
+			</or>
+		</struct>
+		<constraints>
+			<rule>
+				<disj>
+					<var>B</var>
+					<disj>
+						<var>C</var>
+						<var>D</var>
+					</disj>
+				</disj>
+			</rule>
+		</constraints>
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>
