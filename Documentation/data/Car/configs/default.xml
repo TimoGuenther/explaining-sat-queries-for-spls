@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<configuration>
+		<feature automatic="selected" manual="undefined" name="Car"/>
+		<feature automatic="selected" manual="undefined" name="Carbody"/>
+		<feature automatic="selected" manual="undefined" name="Radio"/>
+		<feature automatic="selected" manual="undefined" name="Ports"/>
+		<feature automatic="selected" manual="undefined" name="USB"/>
+		<feature automatic="undefined" manual="undefined" name="CD"/>
+		<feature automatic="selected" manual="undefined" name="Navigation"/>
+		<feature automatic="undefined" manual="undefined" name="DigitalCards"/>
+		<feature automatic="undefined" manual="undefined" name="Europe"/>
+		<feature automatic="undefined" manual="undefined" name="USA"/>
+		<feature automatic="undefined" manual="selected" name="GPSAntenna"/>
+		<feature automatic="unselected" manual="undefined" name="Bluetooth"/>
+		<feature automatic="selected" manual="undefined" name="Gearbox"/>
+		<feature automatic="unselected" manual="undefined" name="Manual"/>
+		<feature automatic="selected" manual="undefined" name="Automatic"/>
+		<feature automatic="selected" manual="undefined" name="GearboxTest"/>
+	</configuration>

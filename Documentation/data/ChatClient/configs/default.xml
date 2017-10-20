@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<configuration>
+		<feature automatic="selected" manual="undefined" name="ChatClient"/>
+		<feature automatic="selected" manual="undefined" name="UI"/>
+		<feature automatic="selected" manual="undefined" name="GUI"/>
+		<feature automatic="unselected" manual="undefined" name="TextualUI"/>
+		<feature automatic="undefined" manual="unselected" name="History"/>
+		<feature automatic="unselected" manual="undefined" name="InputHistory"/>
+		<feature automatic="unselected" manual="undefined" name="ChatLogs"/>
+		<feature automatic="unselected" manual="undefined" name="ServerHistory"/>
+		<feature automatic="selected" manual="undefined" name="MessageNotification"/>
+		<feature automatic="undefined" manual="unselected" name="NativeNotification"/>
+		<feature automatic="undefined" manual="selected" name="HighlightedTab"/>
+		<feature automatic="undefined" manual="unselected" name="UnreadMessageCounter"/>
+		<feature automatic="undefined" manual="unselected" name="TextFormatting"/>
+		<feature automatic="undefined" manual="unselected" name="AutoCompletion"/>
+	</configuration>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel>
+		<properties/>
+		<struct>
+			<and abstract="true" mandatory="true" name="Root">
+				<feature name="A"/>
+				<feature name="B"/>
+				<feature name="C"/>
+			</and>
+		</struct>
+		<constraints>
+			<rule>
+				<imp>
+					<not>
+						<var>C</var>
+					</not>
+					<conj>
+						<disj>
+							<var>A</var>
+							<var>B</var>
+						</disj>
+						<conj>
+							<disj>
+								<var>A</var>
+								<not>
+									<var>B</var>
+								</not>
+							</disj>
+							<conj>
+								<disj>
+									<not>
+										<var>A</var>
+									</not>
+									<var>B</var>
+								</disj>
+								<disj>
+									<not>
+										<var>A</var>
+									</not>
+									<not>
+										<var>B</var>
+									</not>
+								</disj>
+							</conj>
+						</conj>
+					</conj>
+				</imp>
+			</rule>
+		</constraints>
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>
