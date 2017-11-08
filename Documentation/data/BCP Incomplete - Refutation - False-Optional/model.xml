@@ -5,13 +5,14 @@
 			<and abstract="true" mandatory="true" name="Root">
 				<feature name="A"/>
 				<feature name="B"/>
+				<feature name="C"/>
 			</and>
 		</struct>
 		<constraints>
 			<rule>
 				<imp>
 					<not>
-						<var>Root</var>
+						<var>C</var>
 					</not>
 					<conj>
 						<disj>
