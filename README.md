@@ -1,6 +1,6 @@
 # Explaining Satisfiability Queries for Software Product Lines
 
-This repository contains artifacts used in the 2017 master's thesis <i>Explaining Satisfiability Queries for Software Product Lines</i> \[Gün17]. In that thesis, an algorithm capable of finding explanations for satisfiability queries in a software product line context is presented. While the implementation of that algorithm is available in the open-source project [FeatureIDE](https://github.com/FeatureIDE/FeatureIDE) \[MTS<sup>+</sup>17], the documentation and the evaluation reference several models that can be accessed from here. Additionally, the code for the evaluation lives in this repository.
+This repository contains artifacts used in the 2017 master's thesis [<i>Explaining Satisfiability Queries for Software Product Lines</i>](https://publikationsserver.tu-braunschweig.de/receive/dbbs_mods_65308) \[Gün17]. In that thesis, an algorithm capable of finding explanations for satisfiability queries in a software product line context is presented. While the implementation of that algorithm is available in the open-source project [FeatureIDE](https://github.com/FeatureIDE/FeatureIDE) \[MTS<sup>+</sup>17], the documentation and the evaluation reference several models that can be accessed from here. Additionally, the code for the evaluation lives in this repository.
 
 ## Contents
 
